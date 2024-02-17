@@ -1,2 +1,2 @@
 # CollegeSamaj
-Yo!
+i am ayush chauarasia the frontend guru
