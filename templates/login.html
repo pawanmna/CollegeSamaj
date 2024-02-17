@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Samaj-Login</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='login_css.css') }}">
+</head>
+<body>
+
+<div class="header"></div>
+
+<div class="main">
+  <div class="left">
+    <img src="" alt="">
+  </div>
+  <div class="right">
+    <div class="container">
+      <form action="{{ url_for('login') }}" method="post">
+        <div class="each"><input type="email" name="email" placeholder="Enter email here..."></div>
+        <div class="each"><input type="password" name="password" placeholder="Enter password here..."></div>
+        <div class="each"><button type="submit">Login</button></div>
+      </form>
+      <div class="each or">OR</div>
+      <div class="each" id="acnhor"><a href="">
+        <img src="google.png" alt="">
+        <div>Sign up with google</div> 
+      </a></div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <a href="">About us</a>
+  <a href="">Contact us</a>
+  <a href="">Copy right</a>
+</div>
+
+{% if show_popup %}
+<script>
+  window.onload = function() {
+      alert("Enter a valid email ID with the domain @iiitvadodara.ac.in");
+  };
+</script>
+{% endif %}
+
+</body>
+</html>
