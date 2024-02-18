@@ -28,5 +28,5 @@
 
 # NOTE : 
 
-### although we came with this idea of "COLLEGE SAMAJ" during our first hackathon (HACKIIITV) we weren't able to implement it because of our lack of our expertise in the domain of web devlopment. 
+### although we came with this idea of "COLLEGE SAMAJ" during our first hackathon (HACKIIITV) we weren't able to implement it because of our lack of our expertise in the domain of web devlopment we didn't even knew HTML and CSS before the hackathon  all we did and implemented in this project was learnt during the Hackathon.
 
