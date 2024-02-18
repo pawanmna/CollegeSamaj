@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Samaj-Login</title>
+    <link rel="stylesheet" href="login_css.css">
+</head>
+<body>
+
+<div class="header"></div>
+
+<div class="main">
+    <div class="left">
+        <!-- <img src="imagesfolder/your_image.jpg" alt="Your Image"> -->
+    </div>
+    <div class="right">
+        <div class="container">
+            <div class="each"><input type="email" id="email" placeholder="Enter email here..."></div>
+            <div class="each"><input type="password" id="password" placeholder="Enter password here..."></div>
+            <div class="each"><button onclick="login()">Login</button></div>
+            <div class="each or">OR</div>
+            <div class="each" id="anchor">
+                <a href="#" onclick="openHomepage()">
+                    <img src="google.png" alt="Google Logo">
+                    <div>Sign up with google</div> 
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <a href="https://www.youtube.com/watch?v=q-Y0bnx6Ndw">About us</a>
+    <a href="#">Contact us</a>
+    <a href="#">Copy right</a>
+</div>
+
+<!-- Display server response message -->
+<div id="message"></div>
+
+<script>
+    function login() {
+        // Your login logic here
+        // For now, I'm just opening homepage.html
+        window.open('homepage.html', '_blank');
+    }
+
+    function openHomepage() {
+        event.preventDefault(); // Prevent default behavior of anchor tag
+        window.open('homepage.html', '_blank');
+    }
+</script>
+
+</body>
+</html>

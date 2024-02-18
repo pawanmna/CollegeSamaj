@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 8px ;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#71767b;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #171a1d;
+}
+/* main  */
+.main{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #171a1d;
+}
+/* container  */
+.container{
+    height: 90%;
+    width: 90%;
+    background-color:  rgb(48,49,52);
+    /* overflow-y: auto; */
+    display: flex;
+    flex-wrap: wrap;
+}
+/* left  */
+.left {
+    border-right: 1px solid #171a1d;
+    border-radius:0 ;
+    height: 100%;
+    width: 20%;
+    overflow-y: auto;
+}
+.left .image{
+     height: 50%;
+     width: 100%; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-bottom: 1px solid #171a1d;
+     border-radius:0 ;     
+}
+.left .image img {
+    height: auto;
+    width: 80%;
+}
+.each{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #171a1d;
+    border-radius:0 
+}
+
+/* right  */
+.right {
+    height: 100%;
+    width: 79%;
+    position: relative;
+}
+
+.right .upper {
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    border-bottom: 1px solid #171a1d;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.right .lower{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 18px;
+}
+
+
+/* footer  */
+.footer{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color:#171a1d;
+}
+.footer a {
+    padding-left: 20px;
+    text-decoration: none;
+    color : #71767b;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+/* scrool  */
+/* WebKit (Safari/Chrome) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #171a1d;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #171a1d;
+    border-radius: 10px;
+    border: 3px solid #171a1d;
+  }
+  

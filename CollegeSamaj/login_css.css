@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #171a1d;
+    color: white;
+}
+/* main  */
+.main{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* left  */
+.left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* right  */
+.right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* container  */
+.right .container{
+    height: 60%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: none;
+    border-radius: 8px;
+    background-color:rgb(48,49,52) ;
+    padding: 20px;
+}
+/* right container component  */
+.right .container .each{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+}
+.each a img{
+     height: 40px;
+     width: auto;
+}
+.each input{
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    border: none ;
+    outline: none;
+    border-radius: 8px ;
+    font-size: 16px;
+    background-color:#313131;
+    color: #bebebe ;
+}
+.each input::placeholder {
+    color: #bebebe;
+    font-style: italic;
+    font-weight: 500;
+}
+.each button {
+    height: 37px;
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+    background-Color: rgba(223,223,223,0.65);
+    font-weight : 600;
+    font-size : 16px;
+    color: #171a1d;
+    cursor: pointer;
+}
+.each a{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border-radius:50px;
+    width: 45%;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    transition: all 0.5s ease-in-out;
+}
+.each a:hover{
+    scale: 1.02;
+}
+.or{
+    color: rgba(223,223,223,0.65);
+    text-decoration: underline;
+    font-weight: 600;
+}
+/* footer  */
+.footer{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.footer a {
+    padding-left: 20px;
+    text-decoration: none;
+    color : #71767b;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+
+/* Scroll bar */
+/* For webkit-based browsers */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #171a1d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #171a1d;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #333;
+}
