@@ -28,7 +28,7 @@ Access details of essential profiles and social media handles associated with th
 
 ## Development Note
 
-During our participation in the first hackathon (HACKIIITV), the idea for College Samaj was conceived. Despite our limited expertise in web development, with no prior knowledge of HTML and CSS, we successfully implemented the project during the hackathon. This platform aims to simplify the onboarding process for new students, providing a holistic and engaging college experience.
+During our participation in the first hackathon ( HACKIIITV ), the idea for College Samaj was conceived. Despite our limited expertise in web development, with no prior knowledge of HTML and CSS, we successfully implemented the project during the hackathon. This platform aims to simplify the onboarding process for new students, providing a holistic and engaging college experience.
 
 Feel free to explore and contribute to College Samaj on [GitHub](#). Your feedback and contributions are highly appreciated.
 
